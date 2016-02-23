@@ -7,7 +7,7 @@ array-to-grid плагин
 Функция выглядит следующим образом:
 
 ```
-$(test).buildGrid('method', {args});
+$([array]).buildGrid('method', {args});
 ```
 Принимает следующие методы в виде строки:
 
