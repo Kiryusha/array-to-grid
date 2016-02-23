@@ -33,7 +33,7 @@ $([1,234,31]).buildGrid('sort', {
     sortFunction: function(a, b) {return a - b}
 }).buildGrid();
 ```
-Элементы отсортируются, а затем построется сетка.
+Элементы отсортируются, а затем построится сетка.
 ```
 console.log($([1,2,3]).buildGrid('count'));
 ```
