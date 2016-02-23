@@ -29,7 +29,7 @@ $([1,2,3]).buildGrid();
 ```
 Создастся сетка.
 ```
-$([1,234,31]).(test).buildGrid('sort', {
+$([1,234,31]).buildGrid('sort', {
     sortFunction: function(a, b) {return a - b}
 }).buildGrid();
 ```
