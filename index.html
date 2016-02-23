@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Построение таблиц</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.12.0.min.js"></script>
+    <script src="plugin.js"></script>
+</head>
+<body>
+    <div></div>
+    <script>
+        var test = [1, 2, 3, null, undefined, 'a', 'b', 'c', '', true, false, 31, 42, 53, , function () { }, {}, [], 15, 55, 4, 47];
+        $(test).buildGrid('sort', {
+            sortFunction: function(a, b) {return a - b}
+        });
+    </script>
+</body>
+</html>
